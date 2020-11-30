@@ -1,1 +1,2 @@
-body {background-image: url('bg-pattern-card.svg')}
+body,html {height: 100%;}
+body {background-image: url('bg-pattern-card.svg');}
