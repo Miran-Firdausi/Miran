@@ -1,0 +1,6 @@
+<doctype! html>
+<html lang="en">
+<head>
+<title>Profile Card Component</title>
+</head>
+<body>
