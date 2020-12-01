@@ -4,12 +4,51 @@
 <title>Profile Card Component</title>
 <link href="index.css" rel="stylesheet" type="text/css">
   <script>
-  body,html {height: 100%;}
-  body {background-image: url('bg-pattern-card.svg');
-  font-family: arial}
+body {background-color: darkcyan;
+background-image: url('images/bg-pattern-top.svg');
+background-repeat: no-repeat;
+background-position-y: -450px;
+background-position-x: -30%;
+background-size: 60%;}
+
+header {background-image: url('images/bg-pattern-card.svg');
+height: 125px;}
+
+div.frame {margin: 13% 37% 10% 37%;
+height: 350px; background-color: white;}
+
+img {margin-top: 100px;}
+
+th {width: 8.6%;}
+
+td {width: 8.6%; align: center}
   </script>
 </head>
 <body>
-  <h1>Testing</h1>
+<div class="frame">
+    <header>
+        <center>
+        <img src="images/image-victor.jpg" height="60" width="60">
+        </center>
+    </header>
+    <center>
+        <br><br><br>
+        <strong>Victor Crest </strong>26<br><br>
+        London
+    <hr>
+<table border="1" align="center" cellspacing="8px">
+    <tr>
+        <th>80K</th>
+        <th>803K</th>
+        <th>1.4K</th>
+    </tr>
+    <tr>
+        <td>Followers</td>
+        <td>Likes</td>
+        <td>Posts</td>
+    </tr>
+</table>
+</center>
+</div>
 </body>
 </html>
